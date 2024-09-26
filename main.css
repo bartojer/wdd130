@@ -1,0 +1,16 @@
+body {
+    color:steelblue;
+    background-color:rgb(240, 245, 245);
+    font-family: Alexandria, Helvetica, sans-serif;
+}
+
+a {
+    color:purple;
+    font-size: 15px;
+    padding: 25px;
+}
+
+img {
+    width: 600px;
+}
+
