@@ -1,0 +1,8 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #396E94   ;
+    --secondary-color: #7ea8d4 ;
+    --tertiary-color:rgb(164, 187, 231) ;
+    --accent1-color: #90d39f;
+    --accent2-color: white;
+}
