@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: rgb(99, 156, 203);
+    color: white;
+}
+
+img{
+    width: 20%;
+    margin: 15px;
+}
+
+ol{
+    color: black;
+    font: 0.8em;
+    width: 55%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h2{
+    font-size: 1.5em;
+    width: 40%;
+    margin: 5px auto;
+
+}
+
+footer{
+    color: black;
+    font-size: .8em;
+    margin-top: 30px;
+}
