@@ -23,7 +23,7 @@ Fonts are separated by a | */
     --headline-color-on-color: white; /* headlines on a colored background */ 
     --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-    --paragraph-background-color: var(--color-4);
+    --paragraph-background-color: var(--color-2);
     --nav-link-color: var(--color-2);
     --nav-background-color: var(--color-3);
     --nav-hover-link-color: var(--color-3);
@@ -47,7 +47,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    /* color: var(--headline-color-on-white); */
 }
 h2 {
     text-align: center;
@@ -71,6 +71,10 @@ header {
 }
 header > h1, header > h2 {
     color: var(--headline-color-on-color);
+}
+
+#logo {
+    width: 500px;
 }
 
 p {
