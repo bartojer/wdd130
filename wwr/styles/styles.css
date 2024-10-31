@@ -214,7 +214,8 @@ footer{
 }    
 
 footer a {
-text-decoration: none;    
+text-decoration: none;
+color: var(--accent2-color)   
 }
 
 footer p a:hover {
