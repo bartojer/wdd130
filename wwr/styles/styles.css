@@ -435,6 +435,12 @@ img {
     margin: 20px;
 }
 
+.contactus-grid h1 {
+    grid-column: 1/7;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .contactus-form {
     grid-column: 1/7;
     display: grid;
