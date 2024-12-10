@@ -1,5 +1,8 @@
 @import url(variables.css);
 
+h1, h2, h3 {
+    font-family: var(--heading-font);
+}
 body{
     /* reset */
     background-color: var(--background-color);
@@ -7,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
 
-    background-color: var(--accent2-color);
+    background-color: var(--background-color);
     margin: 0;
     padding: 0;
     font-family: var(--paragraph-font);
@@ -15,8 +18,9 @@ body{
 }
 
 #content {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
+    background-color: var(--background-color);
 }
 
 header {
@@ -216,4 +220,81 @@ footer a {
 .about-me-grid img:nth-of-type(3) {
     grid-column: 2 / 8;
     padding-bottom: 30px;
+}
+
+/* Journal */
+#journal-title {
+    margin: 0 auto;
+    align-self: center;
+    width: fit-content;
+    padding: 30px;
+}
+
+.months {
+    background-color: var(--second-nav-background);
+    color: var(--navbar);
+    display: flex;
+    justify-content: space-around;
+}
+
+.months a {
+    text-align: center;
+    background-color: var(--second-nav-background);
+    color: var(--navbar);
+    text-decoration: none;
+    padding: 35px 35px 35px 35px;
+}
+
+.months a:hover {
+    background-color: var(--navbar);
+    color: var(--second-nav-background);
+}
+
+.month {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    gap: 20px;
+    /* overflow: hidden; */
+}
+.month img {
+    /* padding: 5px 30px 5px 2px; */
+    width: 100%;
+    height: auto;
+}
+.month p {
+    /* padding: 5px 0 5px 30px; */
+    width: 100%;
+}
+.month h2 {
+    grid-column: 1/7;
+    grid-row: 1;
+}
+.month img:nth-of-type(1) {
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+.month p:nth-of-type(1) {
+    grid-column: 4/7;
+    grid-row: 2;
+}
+.month p:nth-of-type(2) {
+    grid-column: 4/7;
+    grid-row: 3;
+}
+.month img:nth-of-type(2) {
+    grid-column: 1/4;
+    grid-row: 4;
+}
+.month p:nth-of-type(3) {
+    grid-column: 4/7;
+    grid-row: 4;
+}
+.month img:nth-of-type(3) {
+    grid-column: 1/4;
+    grid-row: 5;
+}
+.month p:nth-of-type(4) {
+    grid-column: 4/7;
+    grid-row: 5;
 }
