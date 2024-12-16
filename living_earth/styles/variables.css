@@ -6,15 +6,15 @@
   /* change the values below to your colors from your palette */
     --color-1: #093844;
     --color-2: #164753;
-    --color-3: #aa8e28;
+    --color-3: rgb(183, 127, 58);
     --color-4: rgb(220, 213, 177);
     --color-5:rgb(152, 82, 16);
     --color-6:rgb(193, 151, 137);
-
+    /* #b77f3a */
     --navbar-background:var(--color-3);
     --navbar:var(--color-2);
-    --background-color:var(--color-4);
-    --second-nav-background:var(--color-6);
+    --background-color:rgb(244, 244, 234);
+    --second-nav-background:var(--color-4);
 
 
   /* change the values below to your chosen font(s) */
